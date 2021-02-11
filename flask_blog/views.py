@@ -6,3 +6,7 @@ from flask_blog import app
 def show_entries():
     return render_template('entries/index.html')
 
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+  if request.method == 'POST':
+    if request.form['username'] != app.config['USERNAME']:
