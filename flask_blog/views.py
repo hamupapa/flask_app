@@ -15,7 +15,8 @@ def login():
       print("パスワードが異なります")
     else:
       return redirect("/")
-    return render_template("login.html")
+  return render_template("login.html")
+
 
 @app.route("/logout")
 def logout():
