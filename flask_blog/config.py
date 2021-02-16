@@ -1,5 +1,5 @@
 # flask_blog/config.py
 DEBUG = True
 SECRET_KEY = "secret key"
-USERNAME = "mine"
-PASSWORD = "minemine"
+USERNAME = "1"
+PASSWORD = "1"
