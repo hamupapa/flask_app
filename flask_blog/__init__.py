@@ -10,5 +10,5 @@ from flask_blog.views.views import view
 app.register_blueprint(view)
 
 from flask_blog.views.entries import entry
-app.register_blueprint(entry, url_prefix='/users')
-
+#app.register_blueprint(entry, url_prefix='/users')
+app.register_blueprint(entry)
